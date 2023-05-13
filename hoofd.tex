@@ -1,3 +1,145 @@
+% !TeX root = main.tex 
+\documentclass[a4paper,12pt, dutch, oneside ]{book}
+\usepackage{geometry}
+\geometry{
+	a4paper,
+%	total={170mm,257mm},
+	left=25mm,
+	top=20mm,
+	right=20mm,
+	bottom=20mm
+}
+
+\usepackage[dutch]{babel}
+\usepackage[utf8]{inputenc}
+
+\usepackage[x11names, table]{xcolor}
+%\setlength{\tabcolsep}{5pt}
+
+%\usepackage{xcolor,longfbox,fancyhdr}
+\usepackage{longfbox,fancyhdr}
+%\usepackage[margin=1in,noheadfoot]{geometry}
+\usepackage{array,supertabular,hhline,hyperref}
+\hypersetup{colorlinks=true,allcolors=blue,pdftitle=Geschiedenis 6,pdfkeywords=Geschiedenis}
+\usepackage[pdftex]{graphicx}
+
+%\usepackage{helvet}
+%\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage{graphicx}
+
+\usepackage{amsmath}
+\usepackage{subfig}
+\usepackage{wrapfig}
+
+\usepackage{tikz}
+\usetikzlibrary{fit,arrows,calc,positioning}
+
+\usepackage{pgfplots}
+\usepgfplotslibrary{fillbetween}
+
+\usepackage[export]{adjustbox}
+\selectlanguage{dutch}
+
+%\renewcommand{\arraystretch}{1.5}
+
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{makecell}
+\usepackage{longtable}
+%\usepackage{tcolorbox}
+\usepackage[listings,skins,breakable]{tcolorbox}
+
+\usepackage{pgffor, ifthen}
+\newcommand{\rules}[3][\empty]{%
+	\vspace{#1}
+	\noindent %Notes\vspace{10pt}\\
+	\foreach \n in {1,...,#2}{%
+		\ifthenelse{\equal{#1}{\empty}}
+		{\rule{#3}{0.5pt}\\}
+		{\rule{#3}{0.5pt}\vspace{#1}\\}
+	}
+}
+
+\usepackage{expl3}
+\ExplSyntaxOn
+\cs_new_eq:NN \Repeat \prg_replicate:nn
+\ExplSyntaxOff
+
+\usepackage{dingbat}
+\def\Omar{\rlap{\protect\makebox[-2cm]{\color{red}\smallpencil}}}
+\newcounter{exercise}
+\counterwithin{exercise}{chapter}
+\newcommand{\opdracht}[1][\empty]{
+	\vspace{2em}
+	\stepcounter{exercise} 
+	\noindent \Omar \textbf{\Large Opdracht \theexercise \  #1} \vspace{1em} \\ 
+}
+
+\usepackage{amsmath} % for \dfrac
+\usepackage{tikz}
+\tikzset{>=latex} % for LaTeX arrow head
+
+\usepackage{framed}
+\usepackage{quoting}
+\colorlet{shadecolor}{LavenderBlush2}
+\newenvironment{shadedquotation}
+{\begin{shaded*}
+	\quoting[leftmargin=0pt, vskip=0pt]
+	}
+	{\endquoting
+\end{shaded*}
+}
+
+\usepackage{parskip}
+\setlength{\parskip}{\medskipamount}
+% parskip ook in minipage:
+\makeatletter
+\newcommand{\@minipagerestore}{\setlength{\parskip}{\medskipamount}}
+\makeatother
+
+\usepackage{enumitem} 
+\usepackage{multicol} % kolommen in tekst
+\usepackage{multirow} % rijen in tabular
+
+
+\usepackage{changepage}   % for the adjustwidth environment
+\newenvironment{inspring}{\begin{adjustwidth}{2cm}{}}{\end{adjustwidth}}
+
+\newenvironment{voorbeeld}
+{
+\begin{minipage}[t]{0.15\textwidth}
+	\vspace{0cm}
+	\rlap{\protect\makebox[0.5cm]{\includegraphics[width=\textwidth]{./figuren/voorbeeld.jpeg}}}
+	
+\end{minipage}\hfill%
+\begin{minipage}[t]{0.85\textwidth}
+	\vspace{0cm}
+}
+{
+\end{minipage}
+\bigskip
+}
+
+
 \begin{document}
+
+\author{Joachim Van Meirvenne}
+\title{Geschiedenis 6}
+%\date{September 2022}
+
+\frontmatter
+\maketitle
+\tableofcontents
+
+\mainmatter
+
+\part{De Koude Oorlog}
+\include{"./hoofdstukken/inleiding"}
+
+
+%\backmatter
+% bibliography, glossary and index would go here.
 
 \end{document}
