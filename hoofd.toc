@@ -1,16 +1,15 @@
 \babel@toc {dutch}{}\relax 
-\babel@toc {dutch}{}\relax 
-\contentsline {part}{I\hspace {1em}Politieke instituties}{1}{part.1}%
-\contentsline {chapter}{\numberline {1}Representatie, participatie}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Representatie?}{2}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Participatie}{2}{section.1.2}%
-\contentsline {chapter}{\numberline {2}Verhouding tussen staatsmachten}{4}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Globalisering}{5}{chapter.3}%
-\contentsline {part}{II\hspace {1em}Hedendaagse samenlevingen}{6}{part.2}%
-\contentsline {chapter}{\numberline {4}Cultuur}{7}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Status en rol}{8}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Macht}{9}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Socialisatie}{10}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Stratificatie}{11}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Mediatisering}{12}{chapter.9}%
-\contentsline {part}{III\hspace {1em}Maatschappelijke vraagstukken}{13}{part.3}%
+\contentsline {part}{I\hspace {1em}Politieke instituties}{1}{}%
+\contentsline {chapter}{\numberline {1}Representatie, participatie}{2}{}%
+\contentsline {section}{\numberline {1.1}Representatie}{2}{}%
+\contentsline {section}{\numberline {1.2}Participatie}{3}{}%
+\contentsline {chapter}{\numberline {2}Verhouding tussen staatsmachten}{4}{}%
+\contentsline {chapter}{\numberline {3}Globalisering}{5}{}%
+\contentsline {part}{II\hspace {1em}Hedendaagse samenlevingen}{6}{}%
+\contentsline {chapter}{\numberline {4}Cultuur}{7}{}%
+\contentsline {chapter}{\numberline {5}Status en rol}{8}{}%
+\contentsline {chapter}{\numberline {6}Macht}{9}{}%
+\contentsline {chapter}{\numberline {7}Socialisatie}{10}{}%
+\contentsline {chapter}{\numberline {8}Stratificatie}{11}{}%
+\contentsline {chapter}{\numberline {9}Mediatisering}{12}{}%
+\contentsline {part}{III\hspace {1em}Maatschappelijke vraagstukken}{13}{}%
