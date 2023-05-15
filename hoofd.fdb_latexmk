@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1684176622 "/home/joachim/Dropbox/onderwijs/cursussen/modernisering/5_cw/hoofd.tex" "hoofd.pdf" "hoofd" 1684176623 0
+["pdflatex"] 1684180760 "/home/joachim/Dropbox/onderwijs/cursussen/modernisering/5_cw/hoofd.tex" "hoofd.pdf" "hoofd" 1684180760 0
   "/etc/texmf/web2c/texmf.cnf" 1674997110 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/joachim/Dropbox/onderwijs/cursussen/modernisering/5_cw/hoofd.tex" 1684176622 914 3048da9b6704af258142495d7b7a974a ""
+  "/home/joachim/Dropbox/onderwijs/cursussen/modernisering/5_cw/hoofd.tex" 1684180759 917 38a2c4d9f01d301ade8863de22b77c58 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -30,11 +30,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1676468108 39561 34c98e380bf7c7201ee6a7909aff625a ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1677610107 4623455 fa0568a71dd9a288d6c226ee477506c6 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1677610121 7880345 531fdfce99a44ed01162c82fe24afeb1 ""
-  "hoofd.aux" 1684176623 1983 c22f165f8c3d0c6bc0d72a45be16826b "pdflatex"
-  "hoofd.tex" 1684176622 914 3048da9b6704af258142495d7b7a974a ""
-  "hoofdstukken/00_overzicht.aux" 1684176623 467 83fa74e3e120bd5c105d18af25681808 "pdflatex"
+  "hoofd.aux" 1684180760 1986 1c65a2cc6046dd9c2122cba83b85adb3 "pdflatex"
+  "hoofd.tex" 1684180759 917 38a2c4d9f01d301ade8863de22b77c58 ""
+  "hoofdstukken/00_overzicht.aux" 1684180760 467 83fa74e3e120bd5c105d18af25681808 "pdflatex"
   "hoofdstukken/00_overzicht.tex" 0 -1 0 ""
-  "hoofdstukken/representatie_participatie.aux" 1684176623 901 b621b7a80ebb312cf79f00ddc9bcf5ec "pdflatex"
+  "hoofdstukken/representatie_participatie.aux" 1684180760 901 b621b7a80ebb312cf79f00ddc9bcf5ec "pdflatex"
   "hoofdstukken/representatie_participatie.tex" 1684176438 5361 14202e494016a664ad0af2dc28aa62a3 ""
   (generated)
   "hoofd.aux"
